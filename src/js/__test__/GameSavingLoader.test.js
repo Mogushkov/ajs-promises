@@ -1,4 +1,4 @@
-import GameSavingLoader from '../gameSavingLoader';
+import GameSavingLoader from '../GameSavingLoader';
 
 test('test promise', (done) => {
   GameSavingLoader.load().then((result) => {

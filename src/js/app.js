@@ -1,6 +1,6 @@
-import gameSavingLoader from './gameSavingLoader';
+import GameSavingLoader from './GameSavingLoader';
 
-gameSavingLoader.load().then((saving) => {
+GameSavingLoader.load().then((saving) => {
   console.log(saving);
 }, (error) => {
   console.log(error);
